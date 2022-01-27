@@ -18,7 +18,7 @@ while True:#while loop
         print(f"Avg speed: {avg_speed:.2f} MPH, {avg_speed*1.61:.2f} KPH.")#f string message 
         break
     else:
-        readings=reading[1:]#removing last value
+        readings=reading[1:]#removing  value
         c=c+1#counter increase
         if reading[0]=="e" or reading[0]=="E":#condition check
             value=float(readings)/1.61#value change
